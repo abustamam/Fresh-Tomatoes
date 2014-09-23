@@ -11,13 +11,13 @@ portal = media.Game("Portal 2",
                      "https://www.youtube.com/watch?v=TluRVBhmf8w", 2)
 
 bad = media.TVShow("Breaking Bad",
-                  "https://www.youtube.com")
+                  "https://www.youtube.com/watch?v=oDqGAUvWKkU")
 
 dead = media.TVShow("The Walking Dead",
-                   "https://www.youtube.com")
+                   "https://www.youtube.com/watch?v=rNxvo8AcpQQ")
 
 thrones = media.TVShow("Game of Thrones",
-                      "https://www.youtube.com")
+                      "https://www.youtube.com/watch?v=SVaD8rouJn0")
 
 frozen = media.Movie("Frozen",
                      "https://www.youtube.com/watch?v=Zb5IH57SorQ")
@@ -28,10 +28,15 @@ lucy = media.Movie("Lucy",
 avengers = media.Movie("The Avengers",
                        "https://www.youtube.com/watch?v=QDajL441mZc")
 
-games = [bioshock,brawl,portal]
+games = {"name": "Games",
+         "content": [bioshock,brawl,portal]}
 
-shows = [bad, dead, thrones]
+shows = {"name": "TV Shows",
+         "content": [bad, dead, thrones]}
 
-movies = [frozen,lucy,avengers]
+movies = {"name": "Movies",
+          "content": [frozen,lucy,avengers]}
 
-fresh_tomatoes.open_movies_page(movies)
+cont = [games, shows, movies]
+
+fresh_tomatoes.open_movies_page(cont)

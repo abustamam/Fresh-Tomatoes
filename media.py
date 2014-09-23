@@ -23,7 +23,10 @@ class Movie(Video):
         self.runtime = self.dat['runtimes'][0]
 
     def show_info(self):
-        return "<p><strong>Runtime:</strong> " + str(self.runtime) + "</p>"
+        return ("<p><strong>Title: </strong>" + str(self.title) + "</p>"
+                "<p><strong>Storyline: </strong>" + str(self.storyline) + "</p>"
+                "<p><strong>Runtime:</strong> " + str(self.runtime) + "</p>"
+                )
         
 
 class Game(Video):
@@ -34,9 +37,11 @@ class Game(Video):
         self.number_players = number_players
 
     def show_info(self):
-        return ("<p><strong>Developer: </strong>" + str(self.developer) + "</p>"
-               "<p><strong>Publisher: </strong>" + str(self.publisher) + "</p>"
-               "<p><strong>Number of Players: </strong>" + str(self.number_players) + "</p>"
+        return ("<p><strong>Title: </strong>" + str(self.title) + "</p>"
+                "<p><strong>Storyline: </strong>" + str(self.storyline) + "</p>"
+                "<p><strong>Developer: </strong>" + str(self.developer) + "</p>"
+                "<p><strong>Publisher: </strong>" + str(self.publisher) + "</p>"
+                "<p><strong>Number of Players: </strong>" + str(self.number_players) + "</p>"
                 )
 
 class TVShow(Video):
@@ -47,7 +52,9 @@ class TVShow(Video):
         self.runtime = self.dat['runtimes'][0]
 
     def show_info(self):
-        return ("<p><strong>Seasons: </strong>" + str(self.seasons) + "</p>" 
-               "<p><strong>Station: </strong>" + str(self.station) + "</p>" 
-               "<p><strong>Runtime: </strong>" + str(self.runtime) + "</p>"
+        return ("<p><strong>Title: </strong>" + str(self.title) + "</p>"
+                "<p><strong>Storyline: </strong>" + str(self.storyline) + "</p>"
+                "<p><strong>Seasons: </strong>" + str(self.seasons) + "</p>" 
+                "<p><strong>Station: </strong>" + str(self.station) + "</p>" 
+                "<p><strong>Runtime: </strong>" + str(self.runtime) + "</p>"
                 )
