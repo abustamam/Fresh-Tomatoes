@@ -9,10 +9,10 @@ main_page_head = '''
     <title>Fresh Tomatoes!</title>
 
     <!-- Bootstrap 3 -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
     <!-- Add fancyBox -->
     <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
@@ -174,7 +174,7 @@ movie_tile_content = '''
     <img src="{poster_image_url}" width="220" height="342">
     <h3>{movie_title}</h3>
     <a role="button" href="#{trailer_youtube_id}" class="infos btn btn-warning" rel="text-gallery">More Info</a>
-    <a role="button" class="trails btn btn-danger fancybox fancybox.iframe" href="http://www.youtube.com/embed/{trailer_youtube_id}?autoplay=1&wmode=opaque" rel="video-gallery">Watch Trailer</a>
+    <a role="button" class="trails btn btn-danger fancybox fancybox.iframe" href="//www.youtube.com/embed/{trailer_youtube_id}?autoplay=1&wmode=opaque" rel="video-gallery">Watch Trailer</a>
 </div>
 '''
 
