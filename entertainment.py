@@ -2,10 +2,10 @@ import media
 import fresh_tomatoes
 
 bioshock = media.Game("Bioshock Infinite",
-                    "https://www.youtube.com/watch?v=XZmxvig1dXE", 1)
+                    "https://www.youtube.com/watch?v=EsJ55BzIvkE", 1)
 
 brawl = media.Game("Super Smash Bros. Brawl",
-                       "https://www.youtube.com/watch?v=Lmw78t8NgIE", 4)
+                       "https://www.youtube.com/watch?v=rSNhawKH8pw", 4)
 
 portal = media.Game("Portal 2",
                      "https://www.youtube.com/watch?v=TluRVBhmf8w", 2)
