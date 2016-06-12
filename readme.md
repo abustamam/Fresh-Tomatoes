@@ -6,7 +6,9 @@ You can visit the site [here](https://abustamam.github.io/Fresh-Tomatoes/)
 
 To build the site, please make sure that you have IMDBPy installed. 
 
-The easiest way for me to do it without messing with environment variables was to use a virtual environment.
+The easiest way for me to do it without messing with the global system environment was to use a virtual environment.
+
+## Installing virtualenv
 
 To install virtualenv, run the following command:
 
@@ -30,10 +32,10 @@ source venv/bin/activate
 
 This will put you into the virtual env.
 
-Finally, run:
+## Install dependencies
 
 ```
-pip install imdbpy
+pip install -r requirements.txt
 ```
 
 This will allow you to run the build command:
